@@ -1,0 +1,5 @@
+Para correr a nossa aplicação primeiro tem que se adicionar o projecto ao Netbeans, ou ao IDE que preferir, e fazer clean e build. Depois tem que se pôr a correr o servidor principal a correr. Para isso, por linha de comandos, tem que se ir até à directoria onde está o projecto e ir até à pasta teste “C:”Directoria do projecto”\src\example\teste”. Ao estar nesta directoria corre-se o seguinte comando na consola java –jar Server.jar <1 ou 2> e assim põe-se o servidor principal a correr.
+
+Para iniciar a parte web da aplicação basta, no IDE, clicar no projecto e pô-lo a correr, assim iniciando o TOMCAT e um cliente web.
+
+Para se iniciar um cliente RMI basta ir para a directoria onde este ficheiro se encontra “C:”Directoria do projecto”\src\example\teste” e correr o seguinte comando na consola java –jar Client.jar <IP>.
